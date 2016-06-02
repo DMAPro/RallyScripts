@@ -20,8 +20,7 @@ Examples:
 	rally DE123 US456   # open defect DE123 and user story US456
 
 You can add these lines to your .profile/.bash_profile to create shortcats:
-	PATH_TO_SCRIPT=path_to_script_here
-	alias rally='$PATH_TO_SCRIPT/rally.sh'
+	alias rally='/path/to/script/here/rally.sh'
 	alias us='$rally -u'
 	alias ta='$rally -t'
 	alias de='$rally -d'
