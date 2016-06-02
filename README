@@ -15,7 +15,7 @@ Examples:
 	rally -d 123 456    # open defects DE123 DE456
 	rally DE123 US456   # open defect DE123 and user story US456
 
-You can add these lines to your .profile/.bash_profile to create shortcats:
+You can add these lines to your .profile/.bash_profile to create shortcuts:
 	PATH_TO_SCRIPT=path_to_script_here
 	alias rally='$PATH_TO_SCRIPT/rally.sh'
 	alias us='$rally -u'
