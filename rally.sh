@@ -21,9 +21,9 @@ Examples:
 
 You can add these lines to your .profile/.bash_profile to create shortcats:
 	alias rally='/path/to/script/here/rally.sh'
-	alias us='$rally -u'
-	alias ta='$rally -t'
-	alias de='$rally -d'
+	alias us='rally -u'
+	alias ta='rally -t'
+	alias de='rally -d'
 EOF
 else
 	OPEN_USERSTORIES=false
