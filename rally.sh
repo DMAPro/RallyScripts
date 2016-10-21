@@ -24,6 +24,8 @@ You can add these lines to your .profile/.bash_profile to create shortcats:
 	alias us='rally -u'
 	alias ta='rally -t'
 	alias de='rally -d'
+To update an already-running terminal session, run
+	source ~/.profile
 EOF
 else
 	OPEN_USERSTORIES=false
